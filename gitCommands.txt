@@ -1,0 +1,46 @@
+ 
+  189  cd Desktop
+  190  mkdir DS
+  191  cd DS
+  192  ls
+  193  touch data.txt
+  194  cat data.txt
+  195  echo "DATA_SCIENCE" >> data.txt
+  196  cat data.txt
+  197  nano data.txt
+  198  cat data.txt
+  199  cd Desktop/DS/
+  200  git init
+  201  git status
+  202  git add data.txt
+  203  git status
+  204  git commit -m 'FIRST COMMIT'
+  205  git config --global user.email 'meghnaaa.s@gmail.com'
+  206  git config --global user.name 'SMeghanaa'
+  207  git config user.email
+  208  git config user.name
+  209  git status
+  210  nano data.txt
+  211  git status
+  212  git add data.txt
+  213  git commit -m 'SECOND COMMIT'
+  214  git log
+  215  mkdir DATA-SCIENCE
+  216  ls
+  217  git remote add DATA-SCIENCE https://github.com/SMeghanaa/DATA-SCIENCE
+  218  git remote sho
+  219  git remote show
+  220  git remote -v
+  221  git pull DATA-SCIENCE master
+  222  git push -u DS master
+  223  git pull -u DATA-SCIENCE master
+  224  git push -u DATA-SCIENCE master
+  225  git pull DATA-SCIENCE master
+  226  git push --set-upstream DATA-SCIENCE master
+  227  git push -f --set-upstream DATA-SCIENCE master
+  228  history
+  229  history [189-228] > gitCommands.txt
+  230  history 228 > gitCommands.txt
+  231  history 189-228 > gitCommands.txt
+  232  touch gitCommands.txt
+  233  history 228 > gitCommands.txt
